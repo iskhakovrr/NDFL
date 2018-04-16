@@ -97,21 +97,9 @@ rad_35.addActionListener(new ActionListener(){
 calc.addActionListener(new ActionListener() {
 public void actionPerformed(ActionEvent e) {
 Float sumok = Float.parseFloat((sum_ok.getText( )));
-sum_n.setText(""+ (result= Calc_n(int_rad,sumok)));
-sum.setText(""+ (rez= Calc_nar(sumok,result)));
+sum_n.setText(""+ (result= Calculation.Calc_n(int_rad,sumok)));
+sum.setText(""+ (rez= Calculation.Calc_nar(sumok,result)));
 }
 });}
 
-
-
-
-public float Calc_n(int rad, float sumok) {
-  float sum_n;
-  sum_n=(sumok/100)*rad;
-	return sum_n;
 }
-public float Calc_nar(float oklad, float sum_n) {
-	  float sum_nar;
-	  sum_nar=oklad-sum_n;
-		return sum_nar;
-}}
