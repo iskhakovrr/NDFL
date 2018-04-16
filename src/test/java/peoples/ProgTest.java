@@ -7,6 +7,7 @@ class ProgTest {
 
     @Test
     void calc_n() {
-        assertEquals( 1300, new Prog().Calc_n(13, 10000));
+        Prog testClass = new Prog();
+        assertEquals( 1300, testClass.Calc_n(13, 10000));
     }
 }
