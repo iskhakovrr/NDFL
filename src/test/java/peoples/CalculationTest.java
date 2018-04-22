@@ -25,7 +25,7 @@ class CalculationTest {
 	
     @Test
     void calc_n3() {
-        assertEquals(1500, Calculation.Calc_n(23, 50000));
+        assertEquals(11500, Calculation.Calc_n(23, 50000));
     }
 	
 	    @Test
