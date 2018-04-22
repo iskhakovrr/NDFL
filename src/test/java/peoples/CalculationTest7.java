@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculationTest1 {
+class CalculationTest7 {
 
     @Test
     void calc_n() {
