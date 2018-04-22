@@ -6,6 +6,8 @@ import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculationTest2{
+Calculation testingClass;
+	 
     @BeforeEach
    void setUp() {
         testingClass = new Calculation();
